@@ -1,0 +1,57 @@
+
+
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-top: 2px;
+    margin-right: 10px;
+    padding-left: 15px;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input::placeholder{
+    font-size: 22px;
+}
+
+.new_folder_btn{
+    background: green;
+    height: 50px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.new_folder_btn:hover{
+    background: darkgreen;
+}
+
+.delete_folders{
+    background: rgba(169, 37, 37, 0.85);
+    height: 50px;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.delete_folders svg{
+    margin-left: 10px;
+}
+
+.delete_folders:hover{
+    background: darkred;
+}

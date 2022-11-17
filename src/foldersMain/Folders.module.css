@@ -1,0 +1,36 @@
+.folders_area{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    margin-top: 50px;
+}
+.folders_parent{
+    width: 250px;
+    height: 210px;
+    position: relative;
+}
+.folder_box{
+    width: 250px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.folders_parent p{
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.delete_one{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.delete_one:hover{
+    color: rgba(169, 37, 37, 0.85);
+}
